@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Animated,
-  InteractionManager,
   Platform,
   StyleSheet,
   View,
@@ -14,6 +13,7 @@ import * as utils from './utils';
 import Actions from './Actions';
 import Avatar from './Avatar';
 import Bubble from './Bubble';
+import InteractionManager from './InteractionManager';
 import MessageImage from './MessageImage';
 import MessageText from './MessageText';
 import Composer from './Composer';
